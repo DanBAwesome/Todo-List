@@ -1,0 +1,41 @@
+body {
+    background-color: #efefef;
+}
+
+.alert {
+    margin-bottom: 5px;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+#alertContainer {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    font-size: 1.4em;
+}
+
+.item:not(:first-of-type) {
+    margin-top: 20px;
+}
+
+.item i{
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.item i:first-child {
+    margin-right: 10px;
+}
+
+.item i:last-child {
+    margin-left: auto;
+}
