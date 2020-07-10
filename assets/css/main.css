@@ -92,6 +92,18 @@ body {
     box-shadow: 2px 2px 4px -2px #000;
 }
 
+#filter > label {
+    box-shadow: none;
+}
+
+.item.disabled {
+    pointer-events: none;
+}
+
+.item.disabled > .item-fg {
+    background-color: #003556;
+}
+
 @media (max-width: 768px) {
     .item{
         width: 100%;
