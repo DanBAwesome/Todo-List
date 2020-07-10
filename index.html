@@ -20,6 +20,19 @@
                 <h2 class="card-header text-center">Todo List</h2>
                 <div class="card-body" id="list">
                 </div>
+                <div class="card-footer text-center">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons" id="filter">
+                        <label class="btn btn-light active" >
+                            <input type="radio" id="all" data-filter="2" checked /> All
+                        </label>
+                        <label class="btn btn-light" >
+                            <input type="radio" id="active" data-filter="0" /> Active
+                        </label>
+                        <label class="btn btn-light" >
+                            <input type="radio" id="complete" data-filter="1" /> Complete
+                        </label>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col-12">
@@ -47,4 +60,5 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+<script src="./assets/js/alert.js"></script>
 <script src="./assets/js/main.js"></script>
